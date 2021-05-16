@@ -1,0 +1,28 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 30px;;
+}
+.header__left{
+    flex:0.5;
+    display: flex;
+    min-width: 30px;;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    padding:10px;
+    border-radius: 30px;;
+}
+.header__left >input{
+    border:none;
+    width:100%;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__right >h4{
+    margin-right:10px;
+}
